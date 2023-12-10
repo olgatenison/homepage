@@ -7,13 +7,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-
+  background-color: #eeeeee;
   --primary-text-color: #181820;
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
+  --border-color: #924f4f;
+  --text-decoration-color: #924f4f;
 }
 
 .container {
@@ -35,6 +35,7 @@ body {
 }
 
 .resume {
+  background-color: #fff;
   margin: 50px auto;
   border: 1px solid #f5f5f5;
   box-shadow: 1px 1px 7px 7px #f5f5f5;
@@ -55,7 +56,7 @@ body {
   }
 
   .contact_info_container {
-    align-items: center;
+    align-items: end;
   }
 
   .contact-info__block:not(:last-child) {
@@ -73,10 +74,9 @@ body {
 }
 
 .contact-info__header {
-  color: var(--primary-text-color);
-  margin-bottom: 15px;
+  color: #924f4f;
+  margin-bottom: 6px;
   text-decoration-color: var(--text-decoration-color);
-  text-decoration-line: underline;
 }
 
 .contact-info__sub-header {
@@ -126,13 +126,13 @@ body {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  border: 3px solid;
-  border-color: var(--text-decoration-color);
+  /* border: 3px solid; */
+  /* border-color: var(--text-decoration-color); */
 }
 /* Intro and skills styles  */
 .intro {
   display: flex;
-  justify-content: start;
+  justify-content: end;
 }
 
 .intro__icon-wrapper {
@@ -164,7 +164,7 @@ body {
 
 .skills__text {
   color: var(--secondary-text-color);
-  text-align: justify;
+  text-align: center;
 }
 /* Experience and additional info styles  */
 
@@ -195,7 +195,6 @@ body {
 }
 
 .experiences__company-project {
-  margin-left: 15px;
   margin-bottom: 25px;
 }
 
@@ -230,7 +229,9 @@ body {
   text-align: left;
   margin-bottom: 20px;
 }
-
+.additional-info__education-university {
+  margin-bottom: 20px;
+}
 .additional-info__education-university-durability {
   color: var(--durability-text-color);
   text-align: left;
@@ -241,7 +242,7 @@ body {
 .additional-info__education-university-speciality {
   color: var(--primary-text-color);
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .additional-info__education-university-name {
@@ -260,4 +261,8 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+a {
+  text-decoration: none;
+  color: #924f4f;
 }
