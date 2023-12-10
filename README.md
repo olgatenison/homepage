@@ -1,4 +1,4 @@
-# Резюме Olga Tenison
+# Resume Olga Tenison
 
 
 This project is a resume web page Olga Tenison, Frontend Developer.
